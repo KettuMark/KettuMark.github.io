@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Roboto&display=swap');
+
+@font-face {
+	font-family: "unisans";
+	src: url("/UniSansHeavy.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: "Roboto", "Noto Color Emoji", sans-serif;color: #ffffff;
+	user-select: none;
+	box-sizing: border-box;
+	background: #0D0E10;
+	overscroll-behavior: contain;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+main {
+	width: calc(100% - 50px);
+	height: 100%;
+	padding: 25px;
+	text-align: center;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 100;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #0D0E10;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.mt {
+	margin-top: 15px;
+}
+
+.link {
+	user-select: text;
+}
+
+.link:link {
+	color: #5865F2;
+}
+
+.link:visited {
+	color: #5865F2;
+}
+
+.link:hover {
+	color: #FF73FA;
+}
+
+.link:active {
+	color: #FFB300;
+}
+
+.title {
+	font-family: "unisans";
+	font-size: 3em;
+	background-image: linear-gradient(30deg, #3F6FDD, #FF73FA);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.icon {
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+	/* border: 2px solid #fff; Necesitaba ver el borde del icono xD */
+}
+
+.greeting {
+	font-size: 1.2em;
+}
+
+.aboutme {
+	list-style-position: inside;
+}
+
+.aboutme li {
+	margin-top: 10px;
+}
+
+.text-discord {
+	font-family: "unisans";
+}
